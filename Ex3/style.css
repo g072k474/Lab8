@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    border: 2px solid black;
+    background-color: darkgreen;
+}
+
+body{
+    background-color: darkgreen;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ec7170-65db-44cb-817d-b74e9ce6bf01/d69sh4f-861a40b2-222d-4e60-b9f5-cb9ad837c623.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZThlYzcxNzAtNjVkYi00NGNiLTgxN2QtYjc0ZTljZTZiZjAxXC9kNjlzaDRmLTg2MWE0MGIyLTIyMmQtNGU2MC1iOWY1LWNiOWFkODM3YzYyMy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.3Tg1BCO6iGBI5pzwXuGKaZwyUnQPmLDpqc6G_zlCdwE);
+    background-attachment: fixed;
+}
+
+.image{
+    border: 2px solid black;
+
+}
+
+.cooltext{
+    border: 2px solid limegreen;
+    position: absolute;
+    background-color: black;
+    top: 18rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.links{
+    border: 2px solid limegreen;
+    position: absolute;
+    background-color: black;
+    top: 26rem;
+
+}
+
+.video{
+    position: absolute;
+    right: 0;
+}
+
+a:hover{
+    background-color: darkgreen;
+    color: lime;
+}

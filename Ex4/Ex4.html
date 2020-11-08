@@ -1,0 +1,38 @@
+<html>
+ <head>
+     <h1>Changing Colors</h1>
+     <script src="color.js"></script>
+ </head>
+ <body>
+     <h2>Starting Out as white for your convienence</h2>
+     <div class="text" id="test">
+     <p class ="dumb" id="dummy">Dummy text used to test out the color changer
+        You can make the border blue red or green 
+        same with the background have fun!
+     </p>
+     </div>
+     <div class="border">
+         <h3>Border Color</h3>
+         Red Value:<input type="number" id="redB">(0-255)
+         Green Value:<input type="number" id="greenB">(0-255)
+         Blue Value:<input type="number" id="blueB">(0-255)
+         Width:<input type="number" id="widthB">
+     </div>
+     <div class="backgroud">
+         <h3>Background</h3>
+        Red Value:<input type="number" id="redBG">(0-255)
+        Green Value:<input type="number" id="greenBG">(0-255)
+        Blue Value:<input type="number" id="blueBG">(0-255)
+     </div>
+     <button onclick="changeColor()">Change Color</button>
+     <div class="WHAT">
+         <div class="Bred" id="red1">Red Border Value: 0</div>
+         <div class="Bgreen" id="green1">Green Border Value: 0</div>
+         <div class="Bblue" id="blue1"> Blue Border Value: 0</div>
+         <div class="borderW" id="width1">Border Width: 0</div>
+         <div class="BGred" id="red2">Red Background Value: 0</div>
+         <div class="BGgreen" id="green2">Green Background Value: 0</div>
+         <div class="BGblue" id="blue2">Blue Background Value: 0</div>
+     </div>
+ </body>
+</html>

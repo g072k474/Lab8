@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    left: 50%;
+    border: 2px solid black;
+    background-color: coral;
+}
+
+body{
+    background-color: crimson;
+}
+
+.passwords{
+    text-align: center;
+    font-size: large;
+}
